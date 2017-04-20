@@ -29,7 +29,6 @@ Fix the following unit tests.
     - offset: Number added to 222000
     - color code: if 1 it is R, if 2 it is B
     - revision: number added to the end of the id
-
-    So, the product ID of offset of 111, color code of 2 and revision 3 is "222111B3".
+    - So, the product ID of offset of 111, color code of 2 and revision 3 is "222111B3".
 
   1. **Test10FindMACAddress**: Fix the unit test so that the function findByMACAddress can find a WirelessAdapter by the MAC address string. It should return the found WirelessAdapter object.
