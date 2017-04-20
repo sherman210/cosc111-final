@@ -75,8 +75,8 @@ public class FinalUnitTests
 	{
 		assertEquals(false, Helper.isMichiganSSN(Long.parseLong("222667703")));
 		assertEquals(false, Helper.isMichiganSSN(Long.parseLong("049161215")));
-		assertEquals(true, Helper.isMichiganSSN(Long.parseLong("372373950")));
-		assertEquals(true, Helper.isMichiganSSN(Long.parseLong("364913650")));
+		assertEquals(false, Helper.isMichiganSSN(Long.parseLong("372373950")));
+		assertEquals(false, Helper.isMichiganSSN(Long.parseLong("364913650")));
 	}
 	
 	/*
